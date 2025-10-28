@@ -20,7 +20,6 @@ header, section {
 h1, h2 {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
-  font-style: italic;
 }
 
 /* === Links === */
@@ -32,13 +31,6 @@ a {
 
 a:hover {
   color: ##f2f3f4;
-}
-
-/* === Iframes (Dashboards) === */
-iframe {
-  border: 2px solid #6A0DAD; /* purple border */
-  border-radius: 6px;
-  max-width: 100%;
 }
 
 /* === Optional: Add a slight background gradient === */
