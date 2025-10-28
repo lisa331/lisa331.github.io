@@ -21,13 +21,25 @@
     <h2>Portfolio</h2>
     <div class="project">
       <h3>Sales Performance Dashboard (Power BI)</h3>
-      <iframe width="800" height="600" src="www.google.com" frameborder="0" allowFullScreen="true"></iframe>
+      <iframe 
+        width="800" 
+        height="600" 
+        src="https://www.google.com" 
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
       <p>Analyzed quarterly sales trends and KPIs for executive reporting.</p>
     </div>
 
     <div class="project">
       <h3>Customer Segmentation (Tableau)</h3>
-      <iframe src="www.google.com" width="800" height="600"></iframe>
+      <iframe 
+        src="https://www.google.com" 
+        width="800" 
+        height="600" 
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
       <p>Used Tableau to visualize customer clusters and behavioral patterns.</p>
     </div>
   </section>
@@ -35,16 +47,21 @@
   <section id="contact">
     <h2>Contact</h2>
     <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
-    <p><a href="https://www.linkedin.com/in/yourprofile/">LinkedIn</a> | <a href="https://github.com/yourusername">GitHub</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/yourprofile/">LinkedIn</a> |
+      <a href="https://github.com/yourusername">GitHub</a>
+    </p>
   </section>
-</body><div class="ghost-cursor"></div>
 
-<script>
-  const ghost = document.querySelector('.ghost-cursor');
-  document.addEventListener('mousemove', e => {
-    ghost.style.left = e.pageX + 'px';
-    ghost.style.top = e.pageY + 'px';
-  });
-</script>
+  <!-- 👻 Ghost Cursor -->
+  <div class="ghost-cursor"></div>
 
+  <script>
+    const ghost = document.querySelector('.ghost-cursor');
+    document.addEventListener('mousemove', e => {
+      ghost.style.left = e.pageX + 'px';
+      ghost.style.top = e.pageY + 'px';
+    });
+  </script>
+</body>
 </html>
