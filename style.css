@@ -1,23 +1,51 @@
+/* === Import Google Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=MedievalSharp&display=swap');
+
+/* === General Styles === */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'MedievalSharp', cursive; /* Gothic, readable body font */
   margin: 40px;
-  background: #D0df00;
-  color: #333;
+  background-color: #0D0D0D; /* spooky dark background */
+  color: #F5F3CE; /* pale bone text */
+  line-height: 1.6;
 }
+
+/* === Header and Sections === */
 header, section {
   margin-bottom: 40px;
+  border-bottom: 1px solid #6A0DAD; /* witchy purple divider */
+  padding-bottom: 20px;
 }
+
+/* === Headings === */
 h1, h2 {
-  color: #005c99;
+  font-family: 'Butcherman', cursive; /* dripping horror font */
+  color: #FF7518; /* pumpkin orange */
+  text-shadow: 0 0 8px #FF7518, 0 0 16px #FFB347; /* glowing text effect */
 }
+
+/* === Links === */
 a {
-  color: #007acc;
+  color: #FF7518; /* orange links */
   text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
+
 a:hover {
-  text-decoration: underline;
+  color: #FFB347;
+  text-shadow: 0 0 10px #FF7518;
 }
+
+/* === Iframes (Dashboards) === */
 iframe {
-  border: 1px solid #ddd;
+  border: 2px solid #6A0DAD; /* purple border */
   border-radius: 6px;
+  box-shadow: 0 0 10px #6A0DAD; /* soft glow */
+  max-width: 100%;
 }
+
+/* === Optional: Add a slight background gradient === */
+body {
+  background: linear-gradient(to bottom, #0D0D0D, #1A0E1A);
+}
+
