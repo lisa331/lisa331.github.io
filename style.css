@@ -1,42 +1,39 @@
-
-
 /* === General Styles === */
 body {
-  font-family: 'LobsterTwo', cursive; /* Gothic, readable body font */
+  font-family: 'Lobster Two', cursive; /* Gothic, readable body font */
   margin: 40px;
-  background-color: #0D0D0D; /* spooky dark background */
+  background: linear-gradient(to bottom, #0D0D0D, #1A0E1A); /* spooky dark gradient */
   color: #F5F3CE; /* pale bone text */
   line-height: 1.6;
 }
 
 /* === Header and Sections === */
-header, section {
+header,
+section {
   margin-bottom: 40px;
   border-bottom: 1px solid #6A0DAD; /* witchy purple divider */
   padding-bottom: 20px;
 }
 
 /* === Headings === */
-h1, h2 {
-  font-family: "Lobster Two", sans-serif;
+h1,
+h2 {
+  font-family: 'Lobster Two', sans-serif;
   font-weight: 400;
 }
 
 /* === Links === */
 a {
-  color: ##f2f3f4; /* orange links */
+  color: #F2F3F4; /* ghostly pale link color */
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 a:hover {
-  color: ##f2f3f4;
+  color: #FF7518; /* pumpkin orange hover color */
+  text-shadow: 0 0 8px #FF7518; /* glowing effect */
 }
 
-/* === Optional: Add a slight background gradient === */
-body {
-  background: linear-gradient(to bottom, #0D0D0D, #1A0E1A);
-}
 /* === Floating Ghost Cursor === */
 .ghost-cursor {
   position: absolute;
