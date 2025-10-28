@@ -19,7 +19,6 @@ header, section {
 
 /* === Headings === */
 h1, h2 {
-.lobster-two-regular-italic {
   font-family: "Lobster Two", sans-serif;
   font-weight: 400;
   font-style: italic;
