@@ -28,7 +28,7 @@ I use tools like:
 ### 🔵 Customer Segmentation (Tableau)
 - **Description:** Clustered customers based on purchasing behavior and demographics.  
 - **Tools:** Tableau, Python  
-- **View:** [View on Tableau Public]https://public.tableau.com/app/profile/lisa.hoover7542
+- **View:** [View on Tableau Public](https://public.tableau.com/app/profile/lisa.hoover7542)
 
 ---
 
