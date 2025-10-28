@@ -37,5 +37,14 @@
     <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
     <p><a href="https://www.linkedin.com/in/yourprofile/">LinkedIn</a> | <a href="https://github.com/yourusername">GitHub</a></p>
   </section>
-</body>
+</body><div class="ghost-cursor"></div>
+
+<script>
+  const ghost = document.querySelector('.ghost-cursor');
+  document.addEventListener('mousemove', e => {
+    ghost.style.left = e.pageX + 'px';
+    ghost.style.top = e.pageY + 'px';
+  });
+</script>
+
 </html>
