@@ -21,7 +21,6 @@ header, section {
 h1, h2 {
   font-family: 'LibreBaskerville', cursive; /* dripping horror font */
   color: #FF7518; /* pumpkin orange */
-  text-shadow: 0 0 8px #FF7518, 0 0 16px #FFB347; /* glowing text effect */
 }
 
 /* === Links === */
@@ -33,7 +32,6 @@ a {
 
 a:hover {
   color: #FFB347;
-  text-shadow: 0 0 10px #FF7518;
 }
 
 /* === Iframes (Dashboards) === */
