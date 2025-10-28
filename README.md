@@ -34,5 +34,12 @@ I use tools like:
 
 ### 🧠 SQL Business Insights
 - **Description:** Analyzed e-commerce transactions to identify top-performing products.  
-- **Tools:** SQL, Postgre
+- **Tools:** SQL, PostgreSQL  
+- **Repository:** [View SQL Scripts](YOUR_GITHUB_SQL_REPO_LINK)
 
+---
+
+## 📫 Contact
+- **Email:** [youremail@example.com](mailto:youremail@example.com)  
+- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+- **GitHub:** [github.com/lisa331](https://github.com/lisa331)
