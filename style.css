@@ -37,4 +37,29 @@ a:hover {
 body {
   background: linear-gradient(to bottom, #0D0D0D, #1A0E1A);
 }
+/* === Floating Ghost Cursor === */
+.ghost-cursor {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url('https://i.imgur.com/fx4sZzU.png') no-repeat center;
+  background-size: contain;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 10px #6A0DAD); /* witchy purple glow */
+  opacity: 0.8;
+  transition: transform 0.15s ease, opacity 0.3s ease;
+  animation: ghostFloat 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes ghostFloat {
+  from {
+    transform: translate(-50%, -55%) scale(1);
+    opacity: 0.9;
+  }
+  to {
+    transform: translate(-50%, -45%) scale(1.05);
+    opacity: 0.7;
+  }
+}
 
