@@ -3,7 +3,7 @@
 
 /* === General Styles === */
 body {
-  font-family: 'MedievalSharp', cursive; /* Gothic, readable body font */
+  font-family: 'LobsterTwo', cursive; /* Gothic, readable body font */
   margin: 40px;
   background-color: #0D0D0D; /* spooky dark background */
   color: #F5F3CE; /* pale bone text */
@@ -20,25 +20,24 @@ header, section {
 /* === Headings === */
 h1, h2 {
   font-family: 'LobsterTwo', cursive; /* dripping horror font */
-  color: #FF7518; /* pumpkin orange */
+  color: ##f2f3f4; /* pumpkin orange */
 }
 
 /* === Links === */
 a {
-  color: #FF7518; /* orange links */
+  color: ##f2f3f4; /* orange links */
   text-decoration: none;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 a:hover {
-  color: #FFB347;
+  color: ##f2f3f4;
 }
 
 /* === Iframes (Dashboards) === */
 iframe {
   border: 2px solid #6A0DAD; /* purple border */
   border-radius: 6px;
-  box-shadow: 0 0 10px #6A0DAD; /* soft glow */
   max-width: 100%;
 }
 
